@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Raleway');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px auto;
+  text-align: center;
+  background: linear-gradient(to left, #38B0DE, #236B8E);
+  color: white;
+
+}
+h1, h2 {
+  font-family: 'Audiowide', cursive;
+  font-size: 35px;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+button {
+  font-family: 'Audiowide', cursive;
+}
+div {
+  display: inline-block;
+  padding: 0 10px;
+  text-align: center;
+}
+div.column {
+  vertical-align: top;
+  border-left: 2px solid white;
+}
+div.column:last-child {
+  border-right: 2px solid white;
+}
+.column-title {
+  background-color: #FF9900;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+.column-title h2 {
+
+}
+button.create-column {
+  border-radius: 5px;
+  background-color: #FF2400;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+
+}
+button.add-card {
+  border-radius: 5px;
+  background-color: white;
+}
+button.btn-delete {
+  display: none;
+}
+div.column:hover button.btn-delete {
+  display: inline-block;
+}
+ul.column-card-list {
+  padding: 0;
+  list-style-type: none;
+  min-height: 100px;
+}
+div.trashcan img {
+  min-height: 100px;
+}
